@@ -1,0 +1,49 @@
+/* CSS PALETTE 
+--ultra-violet: #504283ff;
+--delft-blue: #37316dff;
+--linen: #fff2e8ff;
+--old-rose: #c08579ff;
+--heliotrope: #c57efeff;
+*/
+
+* {
+    font-family: Overpass ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 200px;
+    padding: 20px 80px;
+    font-weight: 600;
+    font-size: 40px;
+    font-style: italic;
+    background-color: #fff2e8ff;
+}
+
+.flex-container {
+    gap: 30px;
+    display: flex;
+}
+
+.f1-item {
+    display: flex;
+    align-items: center;
+}
+
+
+header img {
+    width: 150px;
+}
+
+header .flex-container .f1-item h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    height: 100vh;
+}
