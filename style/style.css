@@ -13,11 +13,18 @@
     font-family: "Lato", sans-serif;
     font-style: italic;
     font-weight: 900;
+
 }
+
+html {
+    background-color: #000;
+}
+
+/* header */
 
 header {
     font-size: 20px;
-    height: 150px;
+    height: 100px;
     padding: 20px 80px;
     vertical-align: middle;
     background-color: #504283ff;
@@ -27,7 +34,7 @@ header {
 
 .h-cont {
     position: absolute; 
-    left: 100px; 
+    left: 50px; 
     top: 50%; 
     transform: translateY(-50%);
 }
@@ -38,11 +45,26 @@ header {
 }
 
 img {
-    width: 100px;
+    width: 70px;
     vertical-align: middle;
 }
 
 main {
     height: 100vh;
-    background-color: #fff2e8ff;
+ /*   background-color: #fff2e8ff; */
+    background-color: #000;
+}
+
+/* main */
+
+.sec {
+    height: 50px;
+    margin: 40px 50px 5px 50px;
+    background-color: cadetblue;
+}
+
+.m-cont {
+    height: 200px;
+    margin: 0px 50px 0px 50px;
+    background-color: olive;
 }
