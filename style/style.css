@@ -58,13 +58,31 @@ main {
 /* main */
 
 .sec {
-    height: 50px;
+    border-radius: 5px;
+    padding: 10px 40px;
     margin: 40px 50px 5px 50px;
-    background-color: cadetblue;
+    background-color: #fff2e8;
 }
 
 .m-cont {
     height: 200px;
+    padding: 20px 40px;
     margin: 0px 50px 0px 50px;
     background-color: olive;
+}
+
+#blue {
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    color: #fff;
+    background-color: #37316d; 
+}
+
+#grey {
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #37316d;
+    color: #37316d;
+    background-color: #fff2e8; 
 }
