@@ -16,10 +16,6 @@
 
 }
 
-html {
-    background-color: #000;
-}
-
 /* header */
 
 header {
@@ -52,30 +48,34 @@ img {
 main {
     height: 100vh;
  /*   background-color: #fff2e8ff; */
-    background-color: #000;
+    background-color: #37316d;
 }
 
 /* main */
 
+.cont-main {
+    padding: 10px;
+    margin: 0px 200px;
+}
+
 .sec {
     border-radius: 5px;
     padding: 10px 40px;
-    margin: 40px 50px 5px 50px;
     background-color: #fff2e8;
 }
 
 .m-cont {
     height: 200px;
     padding: 20px 40px;
-    margin: 0px 50px 0px 50px;
     background-color: olive;
 }
+
 
 #blue {
     border-radius: 5px;
     padding: 5px 10px;
     border: none;
-    color: #fff;
+    color: #fff2e8;
     background-color: #37316d; 
 }
 
