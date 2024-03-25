@@ -88,16 +88,24 @@ main {
     background-color: #fff2e8; 
 }
 
-.tick {
-    display: inline-block;
-    border: 1px solid;
-    border-radius: 50%;
-    width: 16px;
-    text-align: center;
-    font-size: 12px;
+.task{
+    list-style-image: url(../img/arrow-down.png);
 }
 
-.crocs {
+.details {
+    list-style: none;
+}
+
+.details span, 
+.details div {
+    display: inline-block;
+}
+
+.task .text {
+    padding-right: 10px;
+}
+
+.circle {
     display: inline-block;
     border: 1px solid;
     border-radius: 50%;
