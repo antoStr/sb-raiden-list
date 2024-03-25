@@ -85,3 +85,12 @@ main {
     color: #37316d;
     background-color: #fff2e8; 
 }
+
+.tick {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  vertical-align: middle;
+  border-radius: 50%;
+}
