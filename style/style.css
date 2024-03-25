@@ -59,12 +59,14 @@ main {
 }
 
 .sec {
-    border-radius: 5px;
+    border-radius: 3px;
     padding: 10px 40px;
     background-color: #fff2e8;
 }
 
 .m-cont {
+    margin-top: 3px;
+    border-radius: 3px;
     padding: 20px 40px;
     background-color: olive;
 }
@@ -87,10 +89,19 @@ main {
 }
 
 .tick {
-  width: 20px;
-  height: 20px;
-  color: #fff;
-  border: 1px solid #fff;
-  vertical-align: middle;
-  border-radius: 50%;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 16px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.crocs {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 16px;
+    text-align: center;
+    font-size: 12px;
 }
