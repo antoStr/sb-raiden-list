@@ -118,3 +118,7 @@ main {
     text-align: center;
     font-size: 11px;
 }
+
+.circle span {
+    font-style: normal;
+}
