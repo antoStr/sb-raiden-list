@@ -122,3 +122,25 @@ main {
 .circle span {
     font-style: normal;
 }
+
+.text .ok::before {
+    content: '\2713';
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 18px;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+}
+
+.text .wrong::before {
+    content: '\2715';
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 18px;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+}
