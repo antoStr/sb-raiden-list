@@ -66,10 +66,13 @@ main {
 
 .m-cont {
     margin-top: 3px;
+    color: black;
     border-radius: 3px;
     padding: 20px 40px;
-    background-color: olive;
+    background-color: #fff2e8;
 }
+
+/* btns */
 
 
 #blue {
@@ -88,6 +91,8 @@ main {
     background-color: #fff2e8; 
 }
 
+/* liste todo */
+
 .task{
     list-style-image: url(../img/arrow-down.png);
 }
@@ -96,8 +101,8 @@ main {
     list-style: none;
 }
 
-.details span, 
-.details div {
+.details .circle,
+.details li{
     display: inline-block;
 }
 
@@ -109,7 +114,7 @@ main {
     display: inline-block;
     border: 1px solid;
     border-radius: 50%;
-    width: 16px;
+    width: 18px;
     text-align: center;
-    font-size: 12px;
+    font-size: 11px;
 }
