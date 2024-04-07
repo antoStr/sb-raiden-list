@@ -12,8 +12,6 @@
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
     font-style: italic;
-    font-weight: 900;
-
 }
 
 /* header */
@@ -38,6 +36,7 @@ header {
 .title {
     display: inline-block;
     vertical-align: middle;
+    font-weight: 900;
 }
 
 img {
@@ -92,13 +91,14 @@ main {
 }
 
 /* liste todo */
-
+/* details */
 .task{
     list-style-image: url(../img/arrow-down.png);
 }
 
 .details {
     list-style: none;
+    margin-top: 5px;
 }
 
 .details .circle,
@@ -107,20 +107,8 @@ main {
 }
 
 .task .text {
+    margin-top: 10px;
     padding-right: 10px;
-}
-
-.circle {
-    display: inline-block;
-    border: 1px solid;
-    border-radius: 50%;
-    width: 18px;
-    text-align: center;
-    font-size: 11px;
-}
-
-.circle span {
-    font-style: normal;
 }
 
 .text .ok::before {
@@ -143,4 +131,44 @@ main {
     text-align: center;
     font-size: 13px;
     font-style: normal;
+}
+
+.text .green:after {
+    content: 'Easy';
+    background-color: rgb(110, 187, 110);
+    border-radius: 5px;
+    color: #fff2e8;
+    font-size: 10px;
+    padding: 2px 5px;
+    vertical-align: middle;
+}
+
+.text .yellow:after {
+    content: ' Careful';
+    background-color: rgb(201, 201, 120);
+    border-radius: 5px;
+    color: #fff2e8;
+    font-size: 10px;
+    padding: 2px 5px;
+    vertical-align: middle;
+}
+
+.text .orange:after {
+    content: ' Mhmhh??';
+    background-color: rgb(189, 147, 70);
+    border-radius: 5px;
+    color: #fff2e8;
+    font-size: 10px;
+    padding: 2px 5px;
+    vertical-align: middle;
+}
+
+.text .red:after {
+    content: ' SOON FAST!';
+    background-color: rgb(189, 88, 88);
+    border-radius: 5px;
+    color: #fff2e8;
+    font-size: 10px;
+    padding: 2px 5px;
+    vertical-align: middle;
 }
